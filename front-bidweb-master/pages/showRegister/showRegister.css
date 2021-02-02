@@ -1,0 +1,41 @@
+@font-face {
+	font-family: Lato-Regular;
+	src: url(../../fonts/Lato-Regular.ttf);
+}
+
+.menu {
+	margin: 100px 0 40px 24px !important;
+}
+
+.showInfo {
+	padding: 0px 0 100px 30px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+#users {
+	margin: 50px 0 10px 0;
+}
+
+label {
+	font-family: Lato-Regular;
+	font-size: 14px;
+}
+
+#image {
+	width: 100px;
+	height: 100px;
+	margin: 0 0 20px 88%;
+	object-fit: cover;
+}
+
+td {
+    width: 220px;
+}
+
+hr {
+	width: 97%;
+	margin: 0 0 20px 0;
+}

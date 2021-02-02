@@ -1,0 +1,38 @@
+<html>
+
+<header>
+    <title>Bidweb</title>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
+    <link rel="stylesheet" href="importFile.css">
+    <link rel="stylesheet" href="../../common.css">
+    <script src="importFile.js"></script>
+
+    <img class="logo" src="../../assets/imgs/logoBidweb.svg" />
+
+    <img class="logout" src="../../assets/imgs/logout.svg" onclick="logout()" />
+
+</header>
+
+<body>
+
+    <div class="menu"><label onclick="backMenu()">Menu \</label><label id="location"> Importar</label></div>
+
+    <button class="customers">CESAR</button>
+
+
+    <div class="import">
+        <img class="importImage" src="../../assets/imgs/csv.svg" />
+        <br>
+        <label id="nameFile"></label>
+        <br>
+        <label class="buttonImportFile" for="file">ADICIONAR ARQUIVO</label>
+        <input id="file" type="file" accept=".csv" onchange="getNameFile(event)">
+        <br>
+        <button class="submitFile">ENVIAR</button>
+
+    </div>
+
+
+</body>
+
+</html>

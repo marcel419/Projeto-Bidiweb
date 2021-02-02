@@ -1,0 +1,5 @@
+<svg id="Importar_Botão" data-name="Importar Botão" xmlns="http://www.w3.org/2000/svg" width="396" height="166" viewBox="0 0 396 166">
+  <rect id="Retângulo_160" data-name="Retângulo 160" width="396" height="166" rx="5" fill="#5daca5"/>
+  <path id="Icon_awesome-upload" data-name="Icon awesome-upload" d="M51.711,67.077H37.735a4.183,4.183,0,0,1-4.193-4.193V33.535H18.221a3.487,3.487,0,0,1-2.463-5.957L42.33.988a3.385,3.385,0,0,1,4.769,0L73.689,27.577a3.487,3.487,0,0,1-2.463,5.957H55.9v29.35A4.183,4.183,0,0,1,51.711,67.077Zm37.735-1.4V85.246a4.183,4.183,0,0,1-4.193,4.193H4.193A4.183,4.183,0,0,1,0,85.246V65.679a4.183,4.183,0,0,1,4.193-4.193H27.952v1.4a9.789,9.789,0,0,0,9.783,9.783H51.711a9.789,9.789,0,0,0,9.783-9.783v-1.4H85.254A4.183,4.183,0,0,1,89.447,65.679ZM67.784,81.053a3.494,3.494,0,1,0-3.494,3.494A3.5,3.5,0,0,0,67.784,81.053Zm11.181,0a3.494,3.494,0,1,0-3.494,3.494A3.5,3.5,0,0,0,78.965,81.053Z" transform="translate(153 58.556)" fill="rgba(0,0,0,0.2)"/>
+  <text id="Importar" transform="translate(198 47)" fill="#fff" font-size="28" font-family="Lato-Regular, Lato"><tspan x="-53.284" y="0">Importar</tspan></text>
+</svg>

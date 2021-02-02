@@ -1,0 +1,84 @@
+@font-face {
+	font-family: Lato-Regular;
+	src: url(../../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+	font-family: Lato-Light;
+	src: url(../../fonts/Lato-Light.ttf);
+}
+
+body {
+	background: radial-gradient(circle, rgba(41, 175, 177, 1) 0%, rgba(0, 144, 165, 1) 100%);
+}
+
+.logo {
+	text-align: center;
+	margin: 30px 0 20px 0;
+}
+
+img {
+	width: 280px;
+	height: 110px;
+}
+
+.loginCredentials {
+	position: absolute;
+	width: 34%;
+	height: 340px;
+	text-align: center;
+	background-color: rgba(76, 104, 108, 36%);
+	margin: 0 0 0 32%;
+	border-radius: 10px;
+}
+
+#imgInput {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	margin: 6px 0px 0 80px;
+	display: flex;
+}
+
+h2 {
+	font-family: Lato-Light;
+	color: #ffffff;
+	margin: 28px 0 30px 0;
+	font-size: 34px;
+}
+
+label {
+	font-family: Lato-Regular;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+input[type="text"], input[type="password"]  {
+	width: 70%;
+	height: 40px;
+	display: flex;
+	text-align: center;
+	margin: 0 0 20px 14%;
+	border-radius: 10px;
+	padding: 4px 0 0 0;
+	border: none;
+}
+
+
+input::placeholder {
+	font-family: Lato-Light;
+	font-size: 20px;
+	color: #9494949C;
+}
+
+button {
+	font-family: Lato-Regular;
+	width: 140px;
+	height: 40px;
+	background-color: #f38230;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	margin: 6% 0 0 0px;
+}

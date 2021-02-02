@@ -1,0 +1,63 @@
+@font-face {
+	font-family: Lato-Regular;
+	src: url(../../fonts/Lato-Regular.ttf);
+}
+
+.menu {
+	margin: 100px 0 40px 28px !important;
+}
+
+.import {
+	text-align: center;
+}
+
+input[type="file"] {
+	display: none;
+}
+
+.customers {
+	font-family: Lato-Regular;
+	font-size: 14px;
+	min-width: 174px;
+	max-width: 400px;
+	height: 40px;
+	background-color: #5daca5;
+	color: #fff;
+	border-radius: 10px;
+	border: none;
+	margin: 0px 0 0 6%;
+}
+
+.buttonImportFile {
+	font-family: Lato-Regular;
+	font-size: 14px;
+	width: 40px;
+	height: 40px;
+	background-color: #5daca5;
+	color: #fff;
+	border-radius: 10px;
+	padding: 14px 16px 14px 16px;
+}
+
+.submitFile {
+	font-family: Lato-Regular;
+	font-size: 14px;
+	width: 178px;
+	height: 40px;
+	background-color: #5daca5;
+	color: #fff;
+	border-radius: 10px;
+	border: none;
+	margin: 30px 0 0 0;
+}
+
+.importImage {
+	margin: 40px 0 40px 0;
+}
+
+#nameFile {
+	font-family: Lato-Regular;
+	font-size: 18px;
+	position: absolute;
+	margin: -32px 0px 0 -64px;
+}

@@ -1,0 +1,47 @@
+<html>
+<header>
+    <title>Bidweb</title>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
+    <link rel="stylesheet" href="importHistory.css">
+    <link rel="stylesheet" href="../../common.css">
+    <script src="importHistory.js"></script>
+    
+    <img class="logo" src="../../assets/imgs/logoBidweb.svg" />
+    
+    <img class="logout" src="../../assets/imgs/logout.svg" onclick="logout()" />
+    
+</header>
+
+<body>
+    <div class="menu"><label onclick="backMenu()">Menu \</label><label onclick="backCustomer()"> Clientes \</label>
+        <label id="location"> Bidweb Security IT</label> </div>
+
+   <section>
+        <div id="caixaBusca">
+            <input type="text" id="txtBusca" placeholder="Buscar Empresa"/>
+            <button id="btnBusca">Buscar</button>
+        </div>
+
+        <div id="div-tabela">
+            <table id="tabela">
+              <caption>Histórico de Importação</caption>
+                <thead>
+                    <tr>
+                        <th>Nome do Arquivo</th>
+                        <th>Data de Importação</th>
+                        <th>Quantidade de Registros</th>
+                    </tr>
+                </thead>
+                <tbody id="registers">
+
+                </tbody>
+                
+            </table>
+            <hr>
+        </div>
+    </section>
+
+
+    
+</body>
+</html>

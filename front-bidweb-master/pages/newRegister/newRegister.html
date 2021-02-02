@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+    <title>Bidweb</title>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
+    <link rel="stylesheet" href="newRegister.css">
+    <link rel="stylesheet" href="../../common.css">
+    <script src="newRegister.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <img class="logo" src="../../assets/imgs/logoBidweb.svg" />
+
+    <img class="logout" src="../../assets/imgs/logout.svg" onclick="logout()" />
+
+</header>
+
+<body>
+
+    <div class="menu"><label onclick="backMenu()">Menu \</label><label id="location"> Cadastrar</label></div>
+
+    <form method="post">
+        <label>NOVO CADASTRO</label>
+        <hr>
+
+        <div>
+            <label>RAZÃO SOCIAL</label>
+            <input type="text" placeholder="Digite a razão social" required>
+
+            <label for="file"><span><img id="image" src="../../assets/form-photo.png" /></span></label>
+            <input id="file" type="file" name="file" accept="image/png, image/jpeg" onchange="loadFile(event)">
+
+        </div>
+
+        <label>CONTRATOS</label>
+        <img class="newItem" src="../../assets/imgs/new.svg" onclick="newContracts()" />
+        <hr>
+
+        <div class="contactInfo">
+            <table>
+                <tr>
+                    <td><label>NÚMERO</label>
+                        <input type="text" placeholder="Ex: 00001" required>
+                    </td>
+                    <td>
+                        <div class="status">
+                            <label>STATUS:</label>
+                            <input type="radio" id="active" name="status"> <label for="active">ATIVO</label>
+                            <input type="radio" id="finished" name="status"> <label for="finished">FINALIZADO</label>
+                            <input type="radio" id="canceled" name="status"> <label for="canceled">CANCELADO</label>
+                            <input type="radio" id="suspended" name="status"> <label for="suspended">SUSPENSO</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label>DATA INICÍO</label>
+                        <input type="date" required>
+                    </td>
+                    <td id="dateEnd">
+                        <label>DATA TÉRMINO</label>
+                        <input type="date" required>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="contracts">
+            <img id="close" src="../../assets/imgs/close.png" onclick="closeNewContracts()" />
+            <div class="contactInfo">
+                <table>
+                    <tr>
+                        <td><label>NÚMERO</label>
+                            <input type="text" placeholder="Ex: 00001" required>
+                        </td>
+                        <td>
+                            <div class="status">
+                                <label>STATUS:</label>
+                                <input type="radio" id="active" name="status"> <label for="active">ATIVO</label>
+                                <input type="radio" id="finished" name="status"> <label
+                                    for="finished">FINALIZADO</label>
+                                <input type="radio" id="canceled" name="status"> <label for="canceled">CANCELADO</label>
+                                <input type="radio" id="suspended" name="status"> <label
+                                    for="suspended">SUSPENSO</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label>DATA INICÍO</label>
+                            <input type="date" required>
+                        </td>
+                        <td id="dateEnd">
+                            <label>DATA TÉRMINO</label>
+                            <input type="date" required>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <label>USUÁRIOS</label>
+        <img class="newItemUser" src="../../assets/imgs/new.svg" onclick="newUsers()" />
+        <hr>
+
+        <div class="userInfo">
+            <table>
+                <tr>
+                    <td>
+                        <label>NOME</label>
+                        <br>
+                        <input type="text" placeholder="Digite o nome do usuário" required>
+                    </td>
+                    <td id="type">
+                        <label>TIPO:</label>
+                        <input type="radio" id="admin" name="type"> <label for="admin">ADMIN</label>
+                        <input type="radio" id="view" name="type"> <label for="view">VIEW</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>LOGIN</label>
+                        <br>
+                        <input type="email" placeholder="Login do usuário" required>
+                    </td>
+                    <td id="password">
+                        <label>SENHA</label>
+                        <input type="password" placeholder="******" required>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="users">
+            <img id="close" src="../../assets/imgs/close.png" onclick="closeNewUsers()" />
+            <div class="userInfo">
+                <table>
+                    <tr>
+                        <td>
+                            <label>NOME</label>
+                            <br>
+                            <input type="text">
+                        </td>
+                        <td id="type">
+                            <label>TIPO:</label>
+                            <input type="radio" id="admin" name="type"> <label id="admin">ADMIN</label>
+                            <input type="radio" id="view" name="type"> <label id="view">VIEW</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>LOGIN</label>
+                            <br>
+                            <input type="email">
+                        </td>
+                        <td id="password">
+                            <label>SENHA</label>
+                            <input type="password">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <hr>
+
+        <button type="submit" value="Submit" onclick="toSalve()">SALVAR</button>
+
+    </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+body {
+	padding: 60px;
+	margin: 40px 0 0 0;
+}
+
+label {
+	margin: 0px 0 0 10px;
+	font-size: 18px;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	height: 28px;
+	padding: 10px 0px 0px 10px;
+}
+
+li:hover {
+	background-color: #e4f2f1;
+}
+
+.imageEdit {
+	width: 34px;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.5s linear;
+	margin: -20px 0 0 76%;
+	position: absolute;
+	display: block;
+	filter: opacity(0.3);
+}
+
+.imageDelete {
+	width: 34px;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.5s linear;
+	margin: -20px 0 0 64%;
+	position: absolute;
+	display: block;
+	filter: opacity(0.3);
+}
+
+.imageDelete {
+	width: 22px;
+	margin: -20px 0 0 84%;
+}
+
+.customersName {
+	font-size: 16px;
+	margin: 0;
+}
+
+li:hover .imageEdit {
+	visibility: visible;
+	opacity: 1;
+}
+
+li:hover .imageDelete {
+	visibility: visible;
+	opacity: 1;
+}
+
+.menu {
+	width: 100% !important;
+	margin: 0 0 40px -8px !important;
+}
+
+hr {
+    width: 98%;
+}

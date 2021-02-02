@@ -1,0 +1,5 @@
+<svg id="Gerenciar_Cadastro_Botão" data-name="Gerenciar Cadastro Botão" xmlns="http://www.w3.org/2000/svg" width="396" height="166" viewBox="0 0 396 166">
+  <rect id="Retângulo_162" data-name="Retângulo 162" width="396" height="166" rx="5" fill="#5daca5"/>
+  <text id="Cadastros" transform="translate(198 47)" fill="#fff" font-size="28" font-family="Lato-Regular, Lato"><tspan x="-60.998" y="0">Cadastros</tspan></text>
+  <path id="Icon_open-spreadsheet" data-name="Icon open-spreadsheet" d="M9.375,0A9.443,9.443,0,0,0,0,9.375v68.75A9.443,9.443,0,0,0,9.375,87.5h81.25A9.443,9.443,0,0,0,100,78.125V9.375A9.443,9.443,0,0,0,90.625,0ZM12.5,12.5H25V25H12.5Zm25,0h50V25h-50Zm-25,25H25V50H12.5Zm25,0h50V50h-50Zm-25,25H25V75H12.5Zm25,0h50V75h-50Z" transform="translate(148 60)" fill="rgba(0,0,0,0.2)"/>
+</svg>
